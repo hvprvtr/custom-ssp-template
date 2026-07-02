@@ -1,0 +1,5 @@
+LIBRARY CustomSSP
+EXPORTS
+    ; --- SSP-сторона (список Security Packages) ---
+    SpLsaModeInitialize
+    SpUserModeInitialize
