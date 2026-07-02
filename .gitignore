@@ -1,0 +1,28 @@
+# === Артефакты сборки ===
+bin/
+obj/
+out/
+
+# === Файлы Visual Studio / CMake ===
+.vs/
+CMakeSettings.json
+*.user
+*.suo
+
+# === Рантайм-лог пакета (создаётся внутри lsass) ===
+lsa.log
+
+# === Скомпилированные бинарники (на случай сборки вне bin/) ===
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.manifest
+
+# === Прочее ===
+*.log
+Thumbs.db
+desktop.ini
